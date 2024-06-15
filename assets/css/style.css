@@ -62,7 +62,9 @@ h6 {
   overflow: visible;
   background: #fff url("../img/preloader.svg") no-repeat center center;
 }
-
+.s_head{
+  font-weight: bold;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1012,7 +1014,23 @@ h6 {
 #hotels {
   padding: 60px 0;
 }
-
+.hotel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 22px;
+  height: 90%;
+  
+}
+.hotel:hover{
+  transform: scale(1.02);
+  transition: 0.4s;
+}
+#s_container{
+  display: flex;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+}
 #hotels .hotel {
   border: 1px solid #e0e5fa;
   background: #fff;
@@ -1035,7 +1053,7 @@ h6 {
 #hotels h3 {
   font-weight: 600;
   font-size: 20px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   padding: 0 20px;
 }
 
@@ -1057,6 +1075,84 @@ h6 {
 }
 
 #hotels p {
+  padding: 0 20px;
+  margin-bottom: 20px;
+  color: #060c22;
+  font-style: italic;
+  font-size: 15px;
+}
+
+
+
+
+
+
+/*eligibility*/
+-------------------------------------------------------------*/
+#eligibility {
+  padding: 60px 0;
+}
+.hotel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 22px;
+  height: 90%;
+  
+}
+.hotel:hover{
+  transform: scale(1.02);
+  transition: 0.4s;
+}
+#s_container{
+  display: flex;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+}
+#eligibility .hotel {
+  border: 1px solid #e0e5fa;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+#eligibility .hotel:hover .hotel-img img {
+  transform: scale(1.1);
+}
+
+#eligibility .hotel-img {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+#eligibility .hotel-img img {
+  transition: 0.3s ease-in-out;
+}
+
+#eligibility h3 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 15px;
+  padding: 0 20px;
+}
+
+#eligibility a {
+  color: #152b79;
+}
+
+#eligibility a:hover {
+  color: #f82249;
+}
+
+#eligibility .stars {
+  padding: 0 20px;
+  margin-bottom: 5px;
+}
+
+#eligibility .stars i {
+  color: rgb(255, 195, 29);
+}
+
+#eligibility p {
   padding: 0 20px;
   margin-bottom: 20px;
   color: #060c22;
