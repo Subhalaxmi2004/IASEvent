@@ -676,7 +676,25 @@ h6 {
   color: #fff;
   padding: 60px 0 40px 0;
 }
+.buttons{
+  /* border: 2px solid white; */
+  display: flex;
+  gap: 100px;
+  margin-bottom: 45px;
+}
+@media (max-width: 767px) {
+ .buttons{
+  gap: 80px;
+ }
+}
 
+@media (max-width: 480px) {
+  .buttons{
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+}
 @media (min-width: 1024px) {
   #about {
     background-attachment: fixed;
